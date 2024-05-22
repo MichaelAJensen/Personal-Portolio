@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <>
             <h1 className='home-h1'>Michael Jensen / Software Engineer.</h1>
-            <h3 className="home-h3">My Full-stack Developer Tools.</h3>
+            <h3 className="home-h3">MERN Stack Development Toolkit.</h3>
             <div className="home-outer-wrapper">
                 <div className="home-grid-container animate__zoomIn animate__animated">
                     <div className="grid-item"><img src={htmlPic} alt="html pic" className='html-pic' /></div>
