@@ -1,16 +1,23 @@
-*, html, body {
+
+@import url(./Components/navbar/Navbar.css);
+@import url(./pages/home/Home.css);
+@import url(./pages/about/About.css);
+@import url(./assets/webfonts/all.min.css);
+@import url(./assets/css/all.css);
+
+
+*,html, body {
   margin: 0;
   padding:0;
   box-sizing: border-box;
 }
-@import url(./pages/home/Home.css);
-@import url(./Components/navbar/Navbar.css);
 
 body {
   height: 100%;
   width: 100%;
   background-color: black;
-  font-family: cursive;  
   padding: 20px;
+  /* font-family: Helvetica, sans-serif;   */
+  font-family: cursive;
 }
 
