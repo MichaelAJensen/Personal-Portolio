@@ -25,14 +25,10 @@ const Home = () => {
                     <div className="grid-item"><img src={mongoDbPic} alt="mongoDB pic" className='mongodb-pic' /></div>
                     <div className="grid-item"><img src={expressPic} alt="express-node pic" className='express-node-pic' /></div>
                     <div className="grid-item"> <p className="home-span">More references available upon request.</p></div>
-                </div>
-           
-            </div>
-           
+                </div>           
+            </div>           
         </>
-
     )
-
 }
 
 export default Home;

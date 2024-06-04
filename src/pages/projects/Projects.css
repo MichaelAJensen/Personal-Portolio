@@ -1,0 +1,168 @@
+.link {
+    color: lightgray;
+    font-size: large;
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: skyblue
+}
+
+.projects-h1 {
+    font-size: 35px;
+    color: lightgray;
+    margin-bottom: 40px;
+}
+
+.projects-h3 {
+    text-align: center;
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+.projects-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.projects {
+    width: 50%; 
+    border: 10px double black;  
+    border-radius: 10px;
+    background-color: grey;  
+    box-shadow: 0px 0px 30px 0px lightgray;
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;
+    align-items: center;   
+    padding: 10px;;
+}
+
+.project-container {   
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;   
+    height: 300px;
+    width: 95%; 
+    box-shadow: 0px 0px 30px 0px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+          
+}
+.proect-links {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+.project-nav-links {
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    /* color: black; */   
+}
+.profile-link {
+    /* color:lightgray; */
+    font-size: large;
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    margin-left: 20px;
+}
+
+/* for fullstack */
+/* input {
+    border: 5px double black;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 3px;
+  }
+  
+  input:hover {
+    border: 5px double skyblue
+  }
+  
+  .ham-button {
+    color: white;
+  }
+  
+  .reg-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 10px double black;
+    background-color: skyblue;
+    height: 800px;
+    width: 800px;
+    text-shadow: 2px 2px black;
+    border-radius: 10px;
+  }
+  
+  .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 5px solid white;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border-left-color: skyblue;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg)
+    }
+  
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  
+  .todo-li {
+    border: 5px double black;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .my-list {
+    text-align: center;
+  }
+  
+  .hello {
+    text-align: center;
+    text-shadow: 0px 0px 5px black, 0px 0px 10px white;
+    font-size: 40px;
+  } */
+  
+  /* .wrapper {
+    border: 15px double skyblue;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 10px 10px black;
+    /* 0px 0px 10px 10px white;  */
+    /* border-radius: 10px; */
+  /* }  */
+  
+  .profile-div {
+    border: 10px double black;
+  }
